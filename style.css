@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tinted-image {
+  height: 100vh;
+  background: 
+    /* top, transparent blue; bottom red */ 
+    linear-gradient(
+      rgba(0, 200, 255, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(https://source.unsplash.com/L5DxWLmywmM);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: .55;
+}
+
+.hero-text {
+  color: #fff;
+  opacity: .75;
+}
+
+.hero-par {
+  color: #fff;
+  text-align: center;
+  opacity: .75;
+  margin-top: 10px;
+}
+
+hr {
+  margin: 15px auto;
+  width: 35%;
+  opacity: .15;
+}
