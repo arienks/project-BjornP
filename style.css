@@ -41,3 +41,18 @@ hr {
   width: 35%;
   opacity: .15;
 }
+
+.watch-button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.75rem;
+  margin-top: 20px;
+  padding: .4rem 1rem .4rem .5rem;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  opacity: 0.6;
+}
+
+i {
+  padding: 0;
+}
